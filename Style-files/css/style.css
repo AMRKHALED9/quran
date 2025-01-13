@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=swap');
+body{
+    background-color: #EEEEEE;
+}
+*{
+    transition: 1s ease;
+    direction: rtl;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #686D76;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:#DC5F00;
+    border-radius: 5px;
+    border: color();
+}
+
+::selection{
+    background-color: #DC5F00;
+    color: #EEEEEE;
+}
+
+#quran{
+    margin-top: 5rem;
+}
+
+.index{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+    height: 55px;
+}
+
+.index .name{
+    width: 240px;
+    height: 100%;
+    color:black;
+    font-size: 1.4rem;
+    border: #686D76 solid 1px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.index .name:hover{
+    color: #DC5F00;
+    border-color: #DC5F00;
+}
+
+.logo img{
+    height: 65px;
+    margin-top: 5px;
+}
+.nav-links .links{
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 30px;
+    color: #EEEEEE;
+    transition: 1s ease;
+}
+.nav-links .links:hover{
+    color: #DC5F00;
+    text-decoration:underline #DC5F00 solid;
+}
